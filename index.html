@@ -8,6 +8,39 @@
 </head>
 <body>
     <!-- Panel Admin -->
+    <button id="admin-toggle" class="admin-btn">Admin</button>
+
+<!-- Panel Admin -->
+<div id="admin-panel">
+    <h2>Admin Panel</h2>
+    <!-- semua input admin -->
+    <label>Hero Title:</label>
+    <input type="text" id="hero-title">
+
+    <label>Hero Subtitle:</label>
+    <input type="text" id="hero-subtitle">
+
+    <label>Background Image URL:</label>
+    <input type="text" id="bg-url">
+
+    <label>Gradasi Warna 1:</label>
+    <input type="color" id="grad1" value="#0000ff">
+
+    <label>Gradasi Warna 2:</label>
+    <input type="color" id="grad2" value="#ff00ff">
+
+    <label>Opacity (0-1):</label>
+    <input type="number" id="opacity" min="0" max="1" step="0.05" value="0.5">
+
+    <label>Primary Color:</label>
+    <input type="color" id="primary-color" value="#00bfff">
+
+    <h3>Proyek</h3>
+    <div id="projects-admin"></div>
+    <button id="add-project">Tambah Proyek</button>
+
+    <button id="save-settings">Simpan</button>
+</div>
     <div id="admin-panel">
         <h2>Admin Panel</h2>
 
